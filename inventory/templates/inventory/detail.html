@@ -1,0 +1,10 @@
+<a href="{% url 'inventory:edit-product' pk=product.id%}">Edit</a>
+<a href="{% url 'inventory:delete-product' pk=product.id%}">Delete</a>
+
+<h1>{{ product.product_name }}</h1>
+
+<p><strong>Count:</strong> {{ product.product_count }}</p> 
+<p><strong>SKU:</strong> {{ product.product_SKU }}</p>
+<p><strong>Weight:</strong> {{ product.product_weight }} g</p>
+
+<a href="{% url 'inventory:products'%}">Home</a>
