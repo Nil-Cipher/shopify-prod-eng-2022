@@ -1,4 +1,4 @@
-# Wanda's shopify challenge results
+# Wanda's shopify challenge project
 
 ## Setup 
 
